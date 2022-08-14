@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel {
+  position: relative;
+  width: 1287px;
+  margin-top: 30px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text {
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 1527px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgb(173, 172, 172);
+}
+
+.line {
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+  margin-bottom: 30px;
+}
+
+.UL {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+ul{
+  list-style-type: none;
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
+}
+ul ul {
+  margin-top: 15px;
+}
+.ulli{
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+li{
+  cursor: pointer;
+}
+li:hover{
+  text-decoration: underline;
+}
+.first{
+  margin-top: 15px;
+}
+.span {
+  position: absolute;
+  color: grey;
+  font-size: 18px;
+  transform: translate(195px, -10px);
+}
+.span a{
+  font-size: 18px;
+}
+.div{
+  width: 77%;
+  margin: 0 auto;
+  transform: translateY(-20px);
+}
+.div{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div span{
+  color: grey;
 }
