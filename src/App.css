@@ -7,17 +7,16 @@
 
 .carousel {
   position: relative;
-  width: 1287px;
+  width: 1295px;
   margin-top: 30px;
   margin: 0 auto;
 }
 
 .text {
-  width: 77%;
+  width: 75%;
   margin: 0 auto;
   margin-top: 40px;
 }
-
 .container {
   max-width: 1527px;
 }
@@ -52,11 +51,12 @@ ul{
 ul ul {
   margin-top: 15px;
 }
-.ulli{
+.ulli {
   display: flex;
-  width: 100%;
+  width: 98%;
   gap: 40px;
-}
+  margin: 0 auto;
+} 
 li{
   cursor: pointer;
 }
@@ -69,8 +69,8 @@ li:hover{
 .span {
   position: absolute;
   color: grey;
-  font-size: 18px;
-  transform: translate(195px, -10px);
+  font-size: 15px;
+  transform: translate(200px, -10px);
 }
 .span a{
   font-size: 18px;

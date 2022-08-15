@@ -48,9 +48,9 @@ a:hover{
     flex-wrap: wrap;
     gap: 15px;
 }
-.comps{
+.comps {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
 }
